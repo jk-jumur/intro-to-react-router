@@ -1,4 +1,5 @@
-import { Link } from "react-router";
+import { NavLink } from "react-router";
+import  './Header.css'
 
 const Header = () => {
       return(
@@ -13,10 +14,14 @@ const Header = () => {
 
                 {/* amra use korbo link Component ta  jeta react router ee deya ache*/}
                  
-                 <Link to="/">Home</Link>
+                 {/* <Link to="/">Home</Link>
                  <Link to="/mobiles">Mobiles</Link>
-                 <Link to="/laptops">Laptops</Link>
+                 <Link to="/laptops">Laptops</Link> */}
                 
+                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/mobiles">Mobiles</NavLink>
+                  <NavLink to="/laptops">Laptops</NavLink>
+                  <NavLink to="/">Home</NavLink>
             </nav>
             </div>
       )

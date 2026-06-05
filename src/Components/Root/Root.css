@@ -1,0 +1,9 @@
+.root-main{
+      display: flex;
+      gap: 8;
+}
+
+nav a.active{
+     text-decoration: underline;
+     color: greenyellow;
+}
